@@ -1,0 +1,30 @@
+dut:
+  name: "12V Power Module"
+  nominal_voltage: 12.0
+
+test_plan:
+  currents:
+    - 0.5
+    - 1.0
+    - 1.5
+    - 2.0
+    - 2.5
+    - 3.0
+
+  fine_sweep:
+    start: 2.0
+    stop: 2.5
+    step: 0.1
+
+limits:
+  voltage:
+    min: 11.5
+    max: 12.5
+
+  current:
+    min: 0.0
+    max: 3.0
+
+  power:
+    min: 0.0
+    max: 40.0

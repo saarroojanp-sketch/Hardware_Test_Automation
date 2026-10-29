@@ -1,0 +1,4 @@
+Parameter,Measured Value,Unit,Minimum,Maximum,Result
+Voltage,12.05,V,11.5,12.5,PASS
+Current,2.1,A,0.0,3.0,PASS
+Power,25.305000000000003,W,0.0,40.0,PASS

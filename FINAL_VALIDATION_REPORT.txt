@@ -1,0 +1,41 @@
+============================================
+       FINAL DUT VALIDATION REPORT
+============================================
+
+DUT INFORMATION
+------------------------------
+DUT: 12V Power Module
+Test Type: Automated Electrical Validation
+Software: Python
+Test Framework: pytest / Python automation
+
+TEST SUMMARY
+------------------------------
+Total Test Points : 6
+PASS              : 4
+FAIL              : 2
+PASS Rate         : 66.7%
+
+FAILURE ANALYSIS
+------------------------------
+First Failure Current : 2.500 A
+Voltage at Failure   : 11.032 V
+Failure Type         : UNDERVOLTAGE
+Voltage Deviation    : -0.468 V
+
+FINE SWEEP RESULTS
+------------------------------
+Last PASS Current : 2.400 A
+Voltage at Last PASS : 11.854 V
+First FAIL Current : 2.500 A
+Voltage at First FAIL : 11.066 V
+
+ENGINEERING CONCLUSION
+------------------------------
+The DUT passed the lower-load validation points but exhibited an undervoltage failure at higher load current.
+
+Further investigation is recommended around the identified failure threshold before the DUT is considered fully validated.
+
+============================================
+             END OF REPORT
+============================================
